@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import App from "./App.jsx";
+import TextAreaCounter from "./TextAreaCounter.jsx";
 
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App></App>
+    <TextAreaCounter></TextAreaCounter>
   </React.StrictMode>,
 )
